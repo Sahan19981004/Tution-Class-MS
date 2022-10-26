@@ -1,0 +1,99 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #50c878;
+      color: white;
+      font-size: 18px;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 650px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #555;
+      height: 130%;
+      color: white;
+    }
+    
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+
+    .navbar-header{
+      height: 30px
+    }
+
+    
+
+
+ footer{
+
+  text-align: center;
+  padding: 3px;
+  background-color: #306754;
+  color: white;
+}
+
+
+
+table, th, td {
+  border: 1px solid rgb(66, 66, 66);
+  border-collapse: collapse;
+}
+th, td {
+  padding: 20px;
+  text-align: left;
+  border-color: aqua;
+  border-radius: 100px;
+}
+
+
+label{
+  font-weight:bold;
+}
+
+
+div p a {
+  color: white;
+  font-size: 17px;
+  position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color:  #3cb371;
+    border: 1px solid #ecf0f1; 
+}
+
+header{
+background-color: #1abc9c;
+font-weight: bold;
+color: #151b54;
+text-align: center;
+margin-bottom: 0;
+border:  1px solid black;
+   }
+
+
+.navbar{
+  overflow: hidden;
+  background-color: #306754; 
+ border-radius: 0;
+ margin-bottom: 0;
+border-radius: 0;
+border-bottom: 1px solid white;
+}
+
+
+
+
+

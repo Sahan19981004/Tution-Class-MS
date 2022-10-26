@@ -1,0 +1,115 @@
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #50c878;
+      color: white;
+      font-size: 18px;
+    }
+    
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 650px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      padding-top: 20px;
+      background-color: #555;
+      height: 120%;
+      color: white;
+    }
+    
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }
+
+
+    .navbar-header{
+      height: 30px
+    }
+
+    
+
+
+  footer{
+
+  text-align: center;
+  padding: 3px;
+  background-color: #306754;
+  color: white;
+
+}
+
+
+
+
+h1{
+color: darkblue;
+font-weight: bold;
+}
+
+.login{
+	text-align: center;
+	
+	font-size: 16px;
+}
+
+.avatar{
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  text-align: center;
+  }
+
+  #center{
+  	text-align: center;
+  }
+
+.login input[type="text"], input[type="password"]{
+  border: none;
+  border-bottom: 1px solid darkblue;
+  background: transparent;
+  outline: none;
+  height: 25px;
+  color: #000;
+  font-size: 15px;
+}
+
+.btn{
+background-color: blue;
+color: white;
+font-weight: bold;
+
+}
+
+.btn:hover{
+	background-color: pink;
+}
+
+.error{
+	color: red;
+	font-weight: bold;
+}
+
+header{
+background-color: #1abc9c;
+font-weight: bold;
+color: #151b54;
+text-align: center;
+margin-bottom: 0;
+border:  1px solid black;
+   }
+
+.navbar{
+  overflow: hidden;
+  background-color: #306754; 
+ border-radius: 0;
+ margin-bottom: 0;
+border-radius: 0;
+border-bottom: 1px solid white;
+}
